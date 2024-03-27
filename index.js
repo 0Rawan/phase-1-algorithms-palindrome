@@ -1,11 +1,18 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
 
+ const newWord = [...word].reverse().join("");
+ return word === newWord;
+  // [...word].forEach(w => {
+  //   console.log(w)
+  // });
+}
 /* 
   Add your pseudocode here
 */
-
+// loop around the word 
+// save the charcters in new 
+// compare two arrays
 /*
   Add written explanation of your solution here
 */
